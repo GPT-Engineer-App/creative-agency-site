@@ -46,7 +46,53 @@ const Index = () => {
           </VStack>
         </Flex>
 
-        {/* Footer */}
+        {}
+        <Box as="section" p={8} bg="gray.50">
+          <VStack spacing={4} align="center">
+            <Heading as="h3" size="lg" color="gray.800">
+              Our Services
+            </Heading>
+            <Flex direction="row" justify="center" wrap="wrap">
+              <Box p={5} textAlign="center">
+                <FaRocket size="3em" color="#2a69ac" />
+                <Text mt={2} fontSize="md" fontWeight="medium" color="gray.600">
+                  Branding
+                </Text>
+              </Box>
+              <Box p={5} textAlign="center">
+                <FaRocket size="3em" color="#2a69ac" />
+                <Text mt={2} fontSize="md" fontWeight="medium" color="gray.600">
+                  Design
+                </Text>
+              </Box>
+              <Box p={5} textAlign="center">
+                <FaRocket size="3em" color="#2a69ac" />
+                <Text mt={2} fontSize="md" fontWeight="medium" color="gray.600">
+                  Consultation
+                </Text>
+              </Box>
+            </Flex>
+          </VStack>
+        </Box>
+
+        {}
+        <Box as="section" p={8} bg="white">
+          <VStack spacing={4} align="center">
+            <Heading as="h3" size="lg" color="gray.800">
+              What Our Clients Say
+            </Heading>
+            <Flex direction="column" align="center">
+              <Text fontSize="md" fontStyle="italic" color="gray.500">
+                "Creative Agency helped us transform our brand with incredible design and outstanding service."
+              </Text>
+              <Text mt={2} fontSize="sm" color="gray.600">
+                - John Doe, CEO of Innovate Ltd.
+              </Text>
+            </Flex>
+          </VStack>
+        </Box>
+
+        {}
         <Box as="footer" bg="gray.100" py={6}>
           <Flex justify="space-around" align="center">
             <Text fontSize="sm" color="gray.600">
